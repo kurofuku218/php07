@@ -1,0 +1,15 @@
+header{
+    background-color: black;
+    height: 100px;
+}
+.header-inner{
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 25px;
+}
+.header-logo{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+

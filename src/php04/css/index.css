@@ -1,0 +1,145 @@
+.quiz-content {
+    width: 50%;
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.question {
+    background-color: black;
+    padding: 30px 15px;
+    /*元々高さを指定してたけどpadding使ったら柔軟に対応できる*/
+    /*margin: 30px auto 10px auto;*/
+    border-radius: 3px;
+    /*margin: 30px auto 10px auto; と同じような働きが以下２つ*/
+    text-align: center;
+    margin-top: 40px;
+}
+
+.question p {
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 10px;
+    text-align: left;
+    /*questionクラスでte-alをcenterにしたら中央に配置されるが２行目以降も中央になるためそれを左寄せにした*/
+}
+
+.quiz-form {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.quiz-form__item {
+    margin-bottom: 30px;
+}
+
+.quiz-form__group {
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.quiz-form__radio:checked+label {
+    background: #ddd;
+}
+
+.quiz-form__radio {
+    display: none;
+}
+
+
+.quiz-form__label {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.quiz-form__button {
+    width: 100%;
+    background-color: black;
+}
+
+.quiz-form__button-submit {
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    /*これ入れなくても多分上にあるのが使われてte-al:centerになってると思う。だから水平方向に中央になっているのでは？p.s.?クラス違うし違うかもしれん*/
+    border-radius: 3px;
+    cursor: pointer;
+    /*黒い部分全体がpointerになるのはwidth100%だからかな...それはそれでええことや笑*/
+}
+
+
+/*.quiz__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+.question {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 550px;
+    border-radius: 3px;
+    background: #000;
+    text-align: center;
+}
+
+.question__text {
+    color: #fff;
+    text-align: left;
+}
+
+.quiz-form {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 550px;
+    text-align: center;
+}
+
+.quiz-form__item {
+    margin-bottom: 30px;
+}
+
+.quiz-form__group {
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.quiz-form__radio {
+    display: none;
+}
+
+.quiz-form__radio:checked+label {
+    background: #ddd;
+}
+
+.quiz-form__label {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.quiz-form__button {
+    width: 550px;
+}
+
+.quiz-form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}*/

@@ -1,0 +1,86 @@
+header {
+    background-color: black;
+}
+.header-inner{
+    max-width: 1230px;
+    padding: 10px 30px 20px 50px;
+
+}
+.header-logo{
+    font-size: 30px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+main{
+    max-width: 1230px;
+    width: 30%;
+    margin: 0 auto;
+}
+.main-logo{
+    margin: 80px auto 30px auto;
+    text-align: center;
+}
+
+.main-container{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+/*.container_form{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-select_select{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left :5px ;
+    height:35px;
+    margin-right: 3px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    width: 70%;
+    float: left;
+
+}
+.container-button{
+    padding: 3px 50px;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+
+}*/
+
+.container-form_form{
+    display: flex;
+    justify-content: center;
+}
+.container-select{
+    width: 300px;
+    padding: 0 5px;
+}
+.container-select_select{
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.container-button{
+    width: 120px;
+    padding: 0 5px;
+}
+.container-button_button{
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
